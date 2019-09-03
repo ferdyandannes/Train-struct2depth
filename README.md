@@ -1,3 +1,7 @@
+python3 train.py --logtostderr --checkpoint_dir="/media/ferdyan/NewDisk/struct2depth/check" --data_dir="/media/ferdyan/NewDisk/Mask/Siap_procesed/" --architecture resnet --imagenet_ckpt="/media/ferdyan/NewDisk/struct2depth/ckpt/model.ckpt" --imagenet_norm true --joint_encoder="false" --batch_size="1" --summary_freq="200" --size_constraint_weight=0
+
+
+
 # struct2depth
 
 This a method for unsupervised learning of depth and egomotion from monocular video, achieving new state-of-the-art results on both tasks by explicitly modeling 3D object motion, performing on-line refinement and improving quality for moving objects by novel loss formulations. It will appear in the following paper: 
